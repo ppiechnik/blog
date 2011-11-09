@@ -1,0 +1,61 @@
+body {
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #0055FF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ff0055;
+}
+
+#header {
+}
+
+	#title { 
+		padding-top: 10px;
+	}
+
+	#menu { 
+		padding-top: 25px;
+	}
+
+		#menu ul { 
+			list-style: none;
+		}
+
+		#menu li { 
+			display: inline;
+			padding-left: 30px;
+		}
+
+	#content{
+	}
+		.post .anchor-post-more {
+			text-align: right;
+		}
+
+	#sidebar {
+	}
+		#service {
+			margin-bottom: 5px;
+		}
+
+		#service a {
+			text-decoration: none;
+		}
+
+		#service img {
+			margin-bottom: -5px;
+		}
+
+		#pagination {
+			text-align: center;
+		}
+		
+.fixedHeight {
+	height: 600px;
+}
